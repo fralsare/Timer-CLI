@@ -5,7 +5,8 @@ Timer CLI is a lightweight command-line utility designed for Linux systems that 
 ## 🖼️ Demo
 
 Here is a screenshot demonstrating the application in action:
-![[timerCLI_image1 1.png|1800]]
+[Application Demo](/run/media/fralsare/500gbNvmeExt/FralsareFiles/ApplicationCreation/2.TimerApp/timerCLI_image1.png)
+
 ## Features
 
 *   **Idle Detection:** Uses `/dev/input/event*` devices to monitor real-time input activity.
