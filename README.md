@@ -2,7 +2,18 @@
 
 Timer CLI is a lightweight command-line utility designed for Linux systems that tracks the amount of active usage time versus idle time. It automatically pauses the active timer when no keyboard, mouse, or touch input is detected for a configurable duration.
 
+## 🖼️ Demo
+
+Here is a screenshot demonstrating the application in action:
+![[timerCLI_image1 1.png|1800]]
 ## Features
+
+*   **Idle Detection:** Uses `/dev/input/event*` devices to monitor real-time input activity.
+*   **Automatic Pausing:** Pauses the active timer when the system is idle for a specified duration (`IDLE_LIMIT`).
+*   **Real-time Display:** Updates the console continuously with current idle and active time.
+*   **Robustness:** Handles graceful shutdown via `Ctrl+C` and manages device permissions errors.
+
+## Installation
 
 *   **Idle Detection:** Uses `/dev/input/event*` devices to monitor real-time input activity.
 *   **Automatic Pausing:** Pauses the active timer when the system is idle for a specified duration (`IDLE_LIMIT`).
